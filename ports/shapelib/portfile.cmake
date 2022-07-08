@@ -12,6 +12,7 @@ vcpkg_extract_source_archive_ex(
     ARCHIVE ${ARCHIVE}
     PATCHES
         option-build-test.patch
+        fix-usage.patch
 )
 
 vcpkg_cmake_configure(
