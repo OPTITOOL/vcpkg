@@ -15,7 +15,7 @@ vcpkg_configure_cmake(
     OPTIONS -DPC_BUILD_TESTS=OFF
 )
 
-vcpkg_cmake_install()
+vcpkg_install_cmake()
 vcpkg_fixup_cmake_targets(CONFIG_PATH lib/cmake/portable_concurrency TARGET_PATH share/portable_concurrency)
 
 file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include)
