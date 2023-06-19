@@ -9,7 +9,7 @@ vcpkg_from_github(
 )
 
 
-vcpkg_cmake_configure(
+vcpkg_configure_cmake(
     SOURCE_PATH ${SOURCE_PATH}
     PREFER_NINJA
     OPTIONS -DPC_BUILD_TESTS=OFF
