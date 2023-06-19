@@ -6400,6 +6400,10 @@
       "baseline": "0.9",
       "port-version": 5
     },
+    "portable-concurrency": {
+      "baseline": "3f9bbd405c99c841d472dcd74f15d1cabc8b629d",
+      "port-version": 0
+    },
     "portable-file-dialogs": {
       "baseline": "0.1.0",
       "port-version": 0
